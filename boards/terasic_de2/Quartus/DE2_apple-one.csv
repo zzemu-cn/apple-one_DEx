@@ -1,0 +1,100 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# File: D:\Altera DE2-35\DE2_v2.0.4_SystemCD\DE2_demonstrations\DE2_Default\DE2_Default.csv
+# Generated on: Mon Nov 26 19:49:00 2018
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Differential Pair
+BUTTON[0],Unknown,PIN_G26,5,B5_N0,,,,
+BUTTON[1],Unknown,PIN_N23,5,B5_N1,,,,
+BUTTON[2],Unknown,PIN_P23,6,B6_N0,,,,
+LEDG[0],Unknown,PIN_AE22,7,B7_N0,,,,
+LEDG[1],Unknown,PIN_AF22,7,B7_N0,,,,
+LEDG[2],Unknown,PIN_W19,7,B7_N0,,,,
+LEDG[3],Unknown,PIN_V18,7,B7_N0,,,,
+LEDG[4],Unknown,PIN_U18,7,B7_N0,,,,
+LEDG[5],Unknown,PIN_U17,7,B7_N0,,,,
+LEDG[6],Unknown,PIN_AA20,7,B7_N0,,,,
+LEDG[7],Unknown,PIN_Y18,7,B7_N0,,,,
+CLOCK_50,Unknown,PIN_N2,2,B2_N1,,,,
+PS2_KBCLK,Unknown,PIN_D26,5,B5_N0,,,,
+PS2_KBDAT,Unknown,PIN_C24,5,B5_N0,,,,
+UART_RXD,Unknown,PIN_C25,5,B5_N0,,,,
+UART_TXD,Unknown,PIN_B25,5,B5_N0,,,,
+VGA_DAC_R[0],Unknown,PIN_C8,3,B3_N1,,,,
+VGA_DAC_R[1],Unknown,PIN_F10,3,B3_N1,,,,
+VGA_DAC_R[2],Unknown,PIN_G10,3,B3_N1,,,,
+VGA_DAC_R[3],Unknown,PIN_D9,3,B3_N1,,,,
+VGA_DAC_R[4],Unknown,PIN_C9,3,B3_N1,,,,
+VGA_DAC_R[5],Unknown,PIN_A8,3,B3_N0,,,,
+VGA_DAC_R[6],Unknown,PIN_H11,3,B3_N0,,,,
+VGA_DAC_R[7],Unknown,PIN_H12,3,B3_N0,,,,
+VGA_DAC_R[8],Unknown,PIN_F11,3,B3_N0,,,,
+VGA_DAC_R[9],Unknown,PIN_E10,3,B3_N0,,,,
+VGA_DAC_G[0],Unknown,PIN_B9,3,B3_N0,,,,
+VGA_DAC_G[1],Unknown,PIN_A9,3,B3_N0,,,,
+VGA_DAC_G[2],Unknown,PIN_C10,3,B3_N0,,,,
+VGA_DAC_G[3],Unknown,PIN_D10,3,B3_N0,,,,
+VGA_DAC_G[4],Unknown,PIN_B10,3,B3_N0,,,,
+VGA_DAC_G[5],Unknown,PIN_A10,3,B3_N0,,,,
+VGA_DAC_G[6],Unknown,PIN_G11,3,B3_N0,,,,
+VGA_DAC_G[7],Unknown,PIN_D11,3,B3_N0,,,,
+VGA_DAC_G[8],Unknown,PIN_E12,3,B3_N0,,,,
+VGA_DAC_G[9],Unknown,PIN_D12,3,B3_N0,,,,
+VGA_DAC_B[0],Unknown,PIN_J13,3,B3_N0,,,,
+VGA_DAC_B[1],Unknown,PIN_J14,3,B3_N0,,,,
+VGA_DAC_B[2],Unknown,PIN_F12,3,B3_N0,,,,
+VGA_DAC_B[3],Unknown,PIN_G12,3,B3_N0,,,,
+VGA_DAC_B[4],Unknown,PIN_J10,3,B3_N0,,,,
+VGA_DAC_B[5],Unknown,PIN_J11,3,B3_N0,,,,
+VGA_DAC_B[6],Unknown,PIN_C11,3,B3_N0,,,,
+VGA_DAC_B[7],Unknown,PIN_B11,3,B3_N0,,,,
+VGA_DAC_B[8],Unknown,PIN_C12,3,B3_N0,,,,
+VGA_DAC_B[9],Unknown,PIN_B12,3,B3_N0,,,,
+VGA_DAC_CLOCK,Unknown,PIN_B8,3,B3_N0,,,,
+VGA_DAC_BLANK_N,Unknown,PIN_D6,3,B3_N1,,,,
+VGA_HS,Unknown,PIN_A7,3,B3_N1,,,,
+VGA_VS,Unknown,PIN_D8,3,B3_N1,,,,
+VGA_DAC_SYNC_N,Unknown,PIN_B7,3,B3_N1,,,,
+HEX0_D[0],Unknown,PIN_AF10,8,B8_N0,,,,
+HEX0_D[1],Unknown,PIN_AB12,8,B8_N0,,,,
+HEX0_D[2],Unknown,PIN_AC12,8,B8_N0,,,,
+HEX0_D[3],Unknown,PIN_AD11,8,B8_N0,,,,
+HEX0_D[4],Unknown,PIN_AE11,8,B8_N0,,,,
+HEX0_D[5],Unknown,PIN_V14,8,B8_N0,,,,
+HEX0_D[6],Unknown,PIN_V13,8,B8_N0,,,,
+HEX1_D[0],Unknown,PIN_V20,6,B6_N1,,,,
+HEX1_D[1],Unknown,PIN_V21,6,B6_N1,,,,
+HEX1_D[2],Unknown,PIN_W21,6,B6_N1,,,,
+HEX1_D[3],Unknown,PIN_Y22,6,B6_N1,,,,
+HEX1_D[4],Unknown,PIN_AA24,6,B6_N1,,,,
+HEX1_D[5],Unknown,PIN_AA23,6,B6_N1,,,,
+HEX1_D[6],Unknown,PIN_AB24,6,B6_N1,,,,
+HEX2_D[0],Unknown,PIN_AB23,6,B6_N1,,,,
+HEX2_D[1],Unknown,PIN_V22,6,B6_N1,,,,
+HEX2_D[2],Unknown,PIN_AC25,6,B6_N1,,,,
+HEX2_D[3],Unknown,PIN_AC26,6,B6_N1,,,,
+HEX2_D[4],Unknown,PIN_AB26,6,B6_N1,,,,
+HEX2_D[5],Unknown,PIN_AB25,6,B6_N1,,,,
+HEX2_D[6],Unknown,PIN_Y24,6,B6_N1,,,,
+HEX3_D[0],Unknown,PIN_Y23,6,B6_N1,,,,
+HEX3_D[1],Unknown,PIN_AA25,6,B6_N1,,,,
+HEX3_D[2],Unknown,PIN_AA26,6,B6_N1,,,,
+HEX3_D[3],Unknown,PIN_Y26,6,B6_N1,,,,
+HEX3_D[4],Unknown,PIN_Y25,6,B6_N1,,,,
+HEX3_D[5],Unknown,PIN_U22,6,B6_N1,,,,
+HEX3_D[6],Unknown,PIN_W24,6,B6_N1,,,,

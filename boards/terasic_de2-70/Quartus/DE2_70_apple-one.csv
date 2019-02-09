@@ -1,0 +1,112 @@
+# Copyright (C) 1991-2007 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version
+# File: D:\v1.21\DE2_70_TOP.csv
+# Generated on: Wed Nov 14 23:36:20 2007
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+From,To,Assignment Name,Value,Enabled
+,CLOCK_50,Location,PIN_AD15,Yes
+
+,BUTTON[0],Location,PIN_T29,Yes
+,BUTTON[1],Location,PIN_T28,Yes
+,BUTTON[2],Location,PIN_U30,Yes
+
+,LEDG[0],Location,PIN_W27,Yes
+,LEDG[1],Location,PIN_W25,Yes
+,LEDG[2],Location,PIN_W23,Yes
+,LEDG[3],Location,PIN_Y27,Yes
+,LEDG[4],Location,PIN_Y24,Yes
+,LEDG[5],Location,PIN_Y23,Yes
+,LEDG[6],Location,PIN_AA27,Yes
+,LEDG[7],Location,PIN_AA24,Yes
+
+,PS2_KBCLK,Location,PIN_F24,Yes
+,PS2_KBDAT,Location,PIN_E24,Yes
+#,PS2_MSCLK,Location,PIN_D26,Yes
+#,PS2_MSDAT,Location,PIN_D25,Yes
+,UART_CTS,Location,PIN_G22,Yes
+#,UART_RTS,Location,PIN_F23,Yes
+,UART_RXD,Location,PIN_D21,Yes
+,UART_TXD,Location,PIN_E21,Yes
+,VGA_DAC_B[0],Location,PIN_B16,Yes
+,VGA_DAC_B[1],Location,PIN_C16,Yes
+,VGA_DAC_B[2],Location,PIN_A17,Yes
+,VGA_DAC_B[3],Location,PIN_B17,Yes
+,VGA_DAC_B[4],Location,PIN_C18,Yes
+,VGA_DAC_B[5],Location,PIN_B18,Yes
+,VGA_DAC_B[6],Location,PIN_B19,Yes
+,VGA_DAC_B[7],Location,PIN_A19,Yes
+,VGA_DAC_B[8],Location,PIN_C19,Yes
+,VGA_DAC_B[9],Location,PIN_D19,Yes
+,VGA_DAC_BLANK_N,Location,PIN_C15,Yes
+,VGA_DAC_CLOCK,Location,PIN_D24,Yes
+,VGA_DAC_G[0],Location,PIN_A10,Yes
+,VGA_DAC_G[1],Location,PIN_B11,Yes
+,VGA_DAC_G[2],Location,PIN_A11,Yes
+,VGA_DAC_G[3],Location,PIN_C12,Yes
+,VGA_DAC_G[4],Location,PIN_B12,Yes
+,VGA_DAC_G[5],Location,PIN_A12,Yes
+,VGA_DAC_G[6],Location,PIN_C13,Yes
+,VGA_DAC_G[7],Location,PIN_B13,Yes
+,VGA_DAC_G[8],Location,PIN_B14,Yes
+,VGA_DAC_G[9],Location,PIN_A14,Yes
+,VGA_HS,Location,PIN_J19,Yes
+,VGA_DAC_R[0],Location,PIN_D23,Yes
+,VGA_DAC_R[1],Location,PIN_E23,Yes
+,VGA_DAC_R[2],Location,PIN_E22,Yes
+,VGA_DAC_R[3],Location,PIN_D22,Yes
+,VGA_DAC_R[4],Location,PIN_H21,Yes
+,VGA_DAC_R[5],Location,PIN_G21,Yes
+,VGA_DAC_R[6],Location,PIN_H20,Yes
+,VGA_DAC_R[7],Location,PIN_F20,Yes
+,VGA_DAC_R[8],Location,PIN_E20,Yes
+,VGA_DAC_R[9],Location,PIN_G20,Yes
+,VGA_DAC_SYNC_N,Location,PIN_B15,Yes
+,VGA_VS,Location,PIN_H19,Yes
+
+,HEX0_D[0],Location,PIN_AE8,Yes
+,HEX0_D[1],Location,PIN_AF9,Yes
+,HEX0_D[2],Location,PIN_AH9,Yes
+,HEX0_D[3],Location,PIN_AD10,Yes
+,HEX0_D[4],Location,PIN_AF10,Yes
+,HEX0_D[5],Location,PIN_AD11,Yes
+,HEX0_D[6],Location,PIN_AD12,Yes
+#,HEX0_DP,Location,PIN_AF12,Yes
+,HEX1_D[0],Location,PIN_AG13,Yes
+,HEX1_D[1],Location,PIN_AE16,Yes
+,HEX1_D[2],Location,PIN_AF16,Yes
+,HEX1_D[3],Location,PIN_AG16,Yes
+,HEX1_D[4],Location,PIN_AE17,Yes
+,HEX1_D[5],Location,PIN_AF17,Yes
+,HEX1_D[6],Location,PIN_AD17,Yes
+#,HEX1_DP,Location,PIN_AC17,Yes
+,HEX2_D[0],Location,PIN_AE7,Yes
+,HEX2_D[1],Location,PIN_AF7,Yes
+,HEX2_D[2],Location,PIN_AH5,Yes
+,HEX2_D[3],Location,PIN_AG4,Yes
+,HEX2_D[4],Location,PIN_AB18,Yes
+,HEX2_D[5],Location,PIN_AB19,Yes
+,HEX2_D[6],Location,PIN_AE19,Yes
+#,HEX2_DP,Location,PIN_AC19,Yes
+,HEX3_D[0],Location,PIN_P6,Yes
+,HEX3_D[1],Location,PIN_P4,Yes
+,HEX3_D[2],Location,PIN_N10,Yes
+,HEX3_D[3],Location,PIN_N7,Yes
+,HEX3_D[4],Location,PIN_M8,Yes
+,HEX3_D[5],Location,PIN_M7,Yes
+,HEX3_D[6],Location,PIN_M6,Yes
+#,HEX3_DP,Location,PIN_M4,Yes

@@ -1,0 +1,140 @@
+# Copyright (C) 1991-2006 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Full Version
+# File: C:\DE1\DE1_TOP\DE1_TOP.csv
+# Generated on: Wed Sep 27 14:39:29 2006
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+#    output  UART_CTS,       // UART clear-to-send pin on DE0 board
+
+From,To,Assignment Name,Value,Enabled
+,BUTTON[0],Location,PIN_R22,Yes
+,BUTTON[1],Location,PIN_R21,Yes
+,BUTTON[2],Location,PIN_T22,Yes
+,LEDG[0],Location,PIN_R20,Yes
+,LEDG[1],Location,PIN_R19,Yes
+,LEDG[2],Location,PIN_U19,Yes
+,LEDG[3],Location,PIN_Y19,Yes
+,LEDG[4],Location,PIN_T18,Yes
+,LEDG[5],Location,PIN_V19,Yes
+,LEDG[6],Location,PIN_Y18,Yes
+,LEDG[7],Location,PIN_U18,Yes
+,BUTTON[0],I/O Standard,LVTTL,Yes
+,BUTTON[1],I/O Standard,LVTTL,Yes
+,BUTTON[2],I/O Standard,LVTTL,Yes
+,LEDG[0],I/O Standard,LVTTL,Yes
+,LEDG[1],I/O Standard,LVTTL,Yes
+,LEDG[2],I/O Standard,LVTTL,Yes
+,LEDG[3],I/O Standard,LVTTL,Yes
+,LEDG[4],I/O Standard,LVTTL,Yes
+,LEDG[5],I/O Standard,LVTTL,Yes
+,LEDG[6],I/O Standard,LVTTL,Yes
+,LEDG[7],I/O Standard,LVTTL,Yes
+,CLOCK_50,Location,PIN_L1,Yes
+,CLOCK_50,I/O Standard,LVTTL,Yes
+,PS2_KBCLK,Location,PIN_H15,Yes
+,PS2_KBDAT,Location,PIN_J14,Yes
+,PS2_KBCLK,I/O Standard,LVTTL,Yes
+,PS2_KBDAT,I/O Standard,LVTTL,Yes
+,VGA_R[0],Location,PIN_D9,Yes
+,VGA_R[1],Location,PIN_C9,Yes
+,VGA_R[2],Location,PIN_A7,Yes
+,VGA_R[3],Location,PIN_B7,Yes
+,VGA_G[0],Location,PIN_B8,Yes
+,VGA_G[1],Location,PIN_C10,Yes
+,VGA_G[2],Location,PIN_B9,Yes
+,VGA_G[3],Location,PIN_A8,Yes
+,VGA_B[0],Location,PIN_A9,Yes
+,VGA_B[1],Location,PIN_D11,Yes
+,VGA_B[2],Location,PIN_A10,Yes
+,VGA_B[3],Location,PIN_B10,Yes
+,VGA_HS,Location,PIN_A11,Yes
+,VGA_VS,Location,PIN_B11,Yes
+,VGA_R[0],I/O Standard,LVTTL,Yes
+,VGA_R[1],I/O Standard,LVTTL,Yes
+,VGA_R[2],I/O Standard,LVTTL,Yes
+,VGA_R[3],I/O Standard,LVTTL,Yes
+,VGA_G[0],I/O Standard,LVTTL,Yes
+,VGA_G[1],I/O Standard,LVTTL,Yes
+,VGA_G[2],I/O Standard,LVTTL,Yes
+,VGA_G[3],I/O Standard,LVTTL,Yes
+,VGA_B[0],I/O Standard,LVTTL,Yes
+,VGA_B[1],I/O Standard,LVTTL,Yes
+,VGA_B[2],I/O Standard,LVTTL,Yes
+,VGA_B[3],I/O Standard,LVTTL,Yes
+,VGA_HS,I/O Standard,LVTTL,Yes
+,VGA_VS,I/O Standard,LVTTL,Yes
+,UART_RXD,Location,PIN_F14,Yes
+,UART_TXD,Location,PIN_G12,Yes
+,UART_RXD,I/O Standard,LVTTL,Yes
+,UART_TXD,I/O Standard,LVTTL,Yes
+,HEX0_D[0],Location,PIN_J2,Yes
+,HEX0_D[1],Location,PIN_J1,Yes
+,HEX0_D[2],Location,PIN_H2,Yes
+,HEX0_D[3],Location,PIN_H1,Yes
+,HEX0_D[4],Location,PIN_F2,Yes
+,HEX0_D[5],Location,PIN_F1,Yes
+,HEX0_D[6],Location,PIN_E2,Yes
+,HEX1_D[0],Location,PIN_E1,Yes
+,HEX1_D[1],Location,PIN_H6,Yes
+,HEX1_D[2],Location,PIN_H5,Yes
+,HEX1_D[3],Location,PIN_H4,Yes
+,HEX1_D[4],Location,PIN_G3,Yes
+,HEX1_D[5],Location,PIN_D2,Yes
+,HEX1_D[6],Location,PIN_D1,Yes
+,HEX2_D[0],Location,PIN_G5,Yes
+,HEX2_D[1],Location,PIN_G6,Yes
+,HEX2_D[2],Location,PIN_C2,Yes
+,HEX2_D[3],Location,PIN_C1,Yes
+,HEX2_D[4],Location,PIN_E3,Yes
+,HEX2_D[5],Location,PIN_E4,Yes
+,HEX2_D[6],Location,PIN_D3,Yes
+,HEX3_D[0],Location,PIN_F4,Yes
+,HEX3_D[1],Location,PIN_D5,Yes
+,HEX3_D[2],Location,PIN_D6,Yes
+,HEX3_D[3],Location,PIN_J4,Yes
+,HEX3_D[4],Location,PIN_L8,Yes
+,HEX3_D[5],Location,PIN_F3,Yes
+,HEX3_D[6],Location,PIN_D4,Yes
+,HEX0_D[0],I/O Standard,LVTTL,Yes
+,HEX0_D[1],I/O Standard,LVTTL,Yes
+,HEX0_D[2],I/O Standard,LVTTL,Yes
+,HEX0_D[3],I/O Standard,LVTTL,Yes
+,HEX0_D[4],I/O Standard,LVTTL,Yes
+,HEX0_D[5],I/O Standard,LVTTL,Yes
+,HEX0_D[6],I/O Standard,LVTTL,Yes
+,HEX1_D[0],I/O Standard,LVTTL,Yes
+,HEX1_D[1],I/O Standard,LVTTL,Yes
+,HEX1_D[2],I/O Standard,LVTTL,Yes
+,HEX1_D[3],I/O Standard,LVTTL,Yes
+,HEX1_D[4],I/O Standard,LVTTL,Yes
+,HEX1_D[5],I/O Standard,LVTTL,Yes
+,HEX1_D[6],I/O Standard,LVTTL,Yes
+,HEX2_D[0],I/O Standard,LVTTL,Yes
+,HEX2_D[1],I/O Standard,LVTTL,Yes
+,HEX2_D[2],I/O Standard,LVTTL,Yes
+,HEX2_D[3],I/O Standard,LVTTL,Yes
+,HEX2_D[4],I/O Standard,LVTTL,Yes
+,HEX2_D[5],I/O Standard,LVTTL,Yes
+,HEX2_D[6],I/O Standard,LVTTL,Yes
+,HEX3_D[0],I/O Standard,LVTTL,Yes
+,HEX3_D[1],I/O Standard,LVTTL,Yes
+,HEX3_D[2],I/O Standard,LVTTL,Yes
+,HEX3_D[3],I/O Standard,LVTTL,Yes
+,HEX3_D[4],I/O Standard,LVTTL,Yes
+,HEX3_D[5],I/O Standard,LVTTL,Yes
+,HEX3_D[6],I/O Standard,LVTTL,Yes
+

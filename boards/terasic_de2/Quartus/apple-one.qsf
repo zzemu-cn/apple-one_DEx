@@ -1,0 +1,156 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 18:59:32  January 14, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		apple-one_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY apple1_de2_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:59:32  JANUARY 14, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SDC_FILE "apple-one.sdc"
+set_global_assignment -name VERILOG_FILE ../../../rtl/vga/vram.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/vga/vga.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/vga/font_rom.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/uart/uart.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/uart/async_tx_rx.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/ps2keyboard/ps2keyboard.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/ps2keyboard/debounce.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/cpu/arlet/cpu.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/cpu/arlet/ALU.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/cpu/arlet_6502.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/rom_wozmon.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/rom_basic.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/ram.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/pwr_reset.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/clock.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/apple1.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/boards/terasic_de2/segmentdisplay.v
+set_global_assignment -name VERILOG_FILE ../../../rtl/boards/terasic_de2/apple1_de2_top.v
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS16
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_G26 -to BUTTON[0]
+set_location_assignment PIN_N23 -to BUTTON[1]
+set_location_assignment PIN_P23 -to BUTTON[2]
+set_location_assignment PIN_AE22 -to LEDG[0]
+set_location_assignment PIN_AF22 -to LEDG[1]
+set_location_assignment PIN_W19 -to LEDG[2]
+set_location_assignment PIN_V18 -to LEDG[3]
+set_location_assignment PIN_U18 -to LEDG[4]
+set_location_assignment PIN_U17 -to LEDG[5]
+set_location_assignment PIN_AA20 -to LEDG[6]
+set_location_assignment PIN_Y18 -to LEDG[7]
+set_location_assignment PIN_N2 -to CLOCK_50
+set_location_assignment PIN_D26 -to PS2_KBCLK
+set_location_assignment PIN_C24 -to PS2_KBDAT
+set_location_assignment PIN_C25 -to UART_RXD
+set_location_assignment PIN_B25 -to UART_TXD
+set_location_assignment PIN_C8 -to VGA_DAC_R[0]
+set_location_assignment PIN_F10 -to VGA_DAC_R[1]
+set_location_assignment PIN_G10 -to VGA_DAC_R[2]
+set_location_assignment PIN_D9 -to VGA_DAC_R[3]
+set_location_assignment PIN_C9 -to VGA_DAC_R[4]
+set_location_assignment PIN_A8 -to VGA_DAC_R[5]
+set_location_assignment PIN_H11 -to VGA_DAC_R[6]
+set_location_assignment PIN_H12 -to VGA_DAC_R[7]
+set_location_assignment PIN_F11 -to VGA_DAC_R[8]
+set_location_assignment PIN_E10 -to VGA_DAC_R[9]
+set_location_assignment PIN_B9 -to VGA_DAC_G[0]
+set_location_assignment PIN_A9 -to VGA_DAC_G[1]
+set_location_assignment PIN_C10 -to VGA_DAC_G[2]
+set_location_assignment PIN_D10 -to VGA_DAC_G[3]
+set_location_assignment PIN_B10 -to VGA_DAC_G[4]
+set_location_assignment PIN_A10 -to VGA_DAC_G[5]
+set_location_assignment PIN_G11 -to VGA_DAC_G[6]
+set_location_assignment PIN_D11 -to VGA_DAC_G[7]
+set_location_assignment PIN_E12 -to VGA_DAC_G[8]
+set_location_assignment PIN_D12 -to VGA_DAC_G[9]
+set_location_assignment PIN_J13 -to VGA_DAC_B[0]
+set_location_assignment PIN_J14 -to VGA_DAC_B[1]
+set_location_assignment PIN_F12 -to VGA_DAC_B[2]
+set_location_assignment PIN_G12 -to VGA_DAC_B[3]
+set_location_assignment PIN_J10 -to VGA_DAC_B[4]
+set_location_assignment PIN_J11 -to VGA_DAC_B[5]
+set_location_assignment PIN_C11 -to VGA_DAC_B[6]
+set_location_assignment PIN_B11 -to VGA_DAC_B[7]
+set_location_assignment PIN_C12 -to VGA_DAC_B[8]
+set_location_assignment PIN_B12 -to VGA_DAC_B[9]
+set_location_assignment PIN_B8 -to VGA_DAC_CLOCK
+set_location_assignment PIN_D6 -to VGA_DAC_BLANK_N
+set_location_assignment PIN_A7 -to VGA_HS
+set_location_assignment PIN_D8 -to VGA_VS
+set_location_assignment PIN_B7 -to VGA_DAC_SYNC_N
+set_location_assignment PIN_AF10 -to HEX0_D[0]
+set_location_assignment PIN_AB12 -to HEX0_D[1]
+set_location_assignment PIN_AC12 -to HEX0_D[2]
+set_location_assignment PIN_AD11 -to HEX0_D[3]
+set_location_assignment PIN_AE11 -to HEX0_D[4]
+set_location_assignment PIN_V14 -to HEX0_D[5]
+set_location_assignment PIN_V13 -to HEX0_D[6]
+set_location_assignment PIN_V20 -to HEX1_D[0]
+set_location_assignment PIN_V21 -to HEX1_D[1]
+set_location_assignment PIN_W21 -to HEX1_D[2]
+set_location_assignment PIN_Y22 -to HEX1_D[3]
+set_location_assignment PIN_AA24 -to HEX1_D[4]
+set_location_assignment PIN_AA23 -to HEX1_D[5]
+set_location_assignment PIN_AB24 -to HEX1_D[6]
+set_location_assignment PIN_AB23 -to HEX2_D[0]
+set_location_assignment PIN_V22 -to HEX2_D[1]
+set_location_assignment PIN_AC25 -to HEX2_D[2]
+set_location_assignment PIN_AC26 -to HEX2_D[3]
+set_location_assignment PIN_AB26 -to HEX2_D[4]
+set_location_assignment PIN_AB25 -to HEX2_D[5]
+set_location_assignment PIN_Y24 -to HEX2_D[6]
+set_location_assignment PIN_Y23 -to HEX3_D[0]
+set_location_assignment PIN_AA25 -to HEX3_D[1]
+set_location_assignment PIN_AA26 -to HEX3_D[2]
+set_location_assignment PIN_Y26 -to HEX3_D[3]
+set_location_assignment PIN_Y25 -to HEX3_D[4]
+set_location_assignment PIN_U22 -to HEX3_D[5]
+set_location_assignment PIN_W24 -to HEX3_D[6]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
